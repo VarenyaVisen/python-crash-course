@@ -4,3 +4,7 @@ print(motorcycles)
 # deleting an item from the list (if already know the position)
 del motorcycles[0]
 print(motorcycles)
+
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
