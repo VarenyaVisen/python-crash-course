@@ -6,3 +6,6 @@ print(sorted(cars))
 
 print("Here is the original list again:")
 print(cars)
+
+cars.reverse()
+print(cars)
