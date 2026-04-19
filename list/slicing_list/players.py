@@ -7,3 +7,6 @@ print(players[2:])
 
 # same if not written in starting python starts with first element
 print(players[:2])
+
+#We can do negative indexing as well
+print(players[-3:]) # it will print last three element 
