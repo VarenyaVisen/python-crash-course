@@ -5,3 +5,5 @@ for car in cars:
         print(car.upper())
     else:
         print(car.title())
+
+# Note single '=' assigns value and double '==' checks equality and '!=' checks inequality
