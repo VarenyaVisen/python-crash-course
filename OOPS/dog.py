@@ -5,7 +5,7 @@
 class Dog:
     """A simple attempt to model a dog."""
 
-    def __init__(self, name, age):
+    def __init__(self, name, age):          # __init__ method a special kind of method that runs automatically whenever new object is created
         """Initialize name and age attributes."""
         self.name = name
         self.age = age
