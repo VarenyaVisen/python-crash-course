@@ -5,10 +5,14 @@
 class Dog:
     """A simple attempt to model a dog."""
 
+    # The attributes or data we put inside the  __init__ functions are the one which describes objest state 
+    # Things the object needs to remember about itself
     def __init__(self, name, age):          # __init__ method a special kind of method that runs automatically whenever new object is created
         """Initialize name and age attributes."""
         self.name = name
         self.age = age
+        #Any variable prefixed with self is available to every method inside the class
+        #Variables that are accessible through instances are called attributes
 
     def sit(self):
         """Simulate a dog sitting in response to a command."""
