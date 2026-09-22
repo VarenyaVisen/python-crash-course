@@ -10,3 +10,4 @@ v.show()
 # which is "v" in this case -  but in class method we are not taking any argument
 
 # So self is basically a - reference to the current instance being created or used 
+# also self is not a keyword it is just a convention to maintain readability
