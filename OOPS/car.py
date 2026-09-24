@@ -31,3 +31,7 @@ my_new_car.read_odometer()
 
 my_new_car.update_odometer(34)  # Modifying value using a function
 my_new_car.read_odometer()
+
+# You dont have to start from scratch when writing a class
+# If the class you're writing is a specialized version of another class already written 
+# Then we can use Inheritance
