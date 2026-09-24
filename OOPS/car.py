@@ -41,8 +41,13 @@ class ElectricCar(Car):
     def __init__(self,make , model, year):
         """Initialize attributes of Parent class"""
         super().__init__(make,model,year) # The super function is a special function that allows you to call a method from the parent class
-        
+        self.battery_size = 40
+
+    def battery_description(self):
+        """Print a statement describing the battery size"""
+        print(f"This car has a {self.battery_size}-kWh battery.")
 
 
 my_leaf = ElectricCar('nissan','leaf',2024)
 print(my_leaf.get_description())
+my_leaf.battery_description()
