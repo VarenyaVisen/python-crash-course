@@ -35,3 +35,13 @@ my_new_car.read_odometer()
 # You dont have to start from scratch when writing a class
 # If the class you're writing is a specialized version of another class already written 
 # Then we can use Inheritance
+class ElectricCar(Car):
+    """Represent aspects of car, specific to electric vehicles. """
+
+    def __init__(self,make , model, year):
+        """Initialize attributes of Parent class"""
+        super().__init__(make,model,year)
+
+
+my_leaf = ElectricCar('nissan','leaf',2024)
+print(my_leaf.get_description())
